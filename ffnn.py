@@ -11,6 +11,7 @@ from tqdm import tqdm
 import json
 from argparse import ArgumentParser
 
+
 unk = '<UNK>'
 # Consult the PyTorch documentation for information on the functions used below:
 # https://pytorch.org/docs/stable/torch.html
