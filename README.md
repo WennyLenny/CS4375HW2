@@ -10,14 +10,12 @@ Our benmarking performance after completing def forward() code:
 
 **FFNN**
 
-``python ffnn.py --hidden_dim 10 --epochs 1 ``
-``--train_data ./training.json --val_data ./validation.json``
+``python ffnn.py --hidden_dim 10 --epochs 1 --train_data ./training.json --val_data ./validation.json``
 
 validation acc >=0.43
 
 **RNN**
 
-``python rnn.py --hidden_dim 32 --epochs 10 ``
-``--train_data training.json --val_data validation.json``
+``python rnn.py --hidden_dim 32 --epochs 10 --train_data training.json --val_data validation.json``
 
 validation acc >= 0.31
